@@ -1,0 +1,30 @@
+{
+  "name": "task1",
+  "productName": "task1",
+  "releaseName": "task1",
+  "version": "0.0.1",
+  "main": "main.js",
+  "email": "",
+  "description": "Test task",
+  "scripts": {
+    "clean": "rm -rf ./dist",
+    "win": "node_modules/.bin/build.cmd",
+    "start": "node main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^9.4.7"
+  },
+  "dependencies": {
+    "async": "^2.1.2",
+    "bignumber.js": "^2.3.0",
+    "body-parser": "^1.15.0",
+    "express": "^4.16.3",
+    "lodash": "^4.17.5",
+    "path": "^0.12.7",
+    "request": "^2.75.0",
+    "xss": "^0.2.13",
+    "image-downloader": "^3.4.2"
+  }
+}
